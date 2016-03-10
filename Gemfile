@@ -1,7 +1,6 @@
-source 'https://rubygems.org/' 
+source 'http://rubygems.org'
 
-gem 'res', :git => 'git@github.com:bbc/res.git'
-gem 'cucumber', '<2'
-gem 'rspec'
-
-
+gem 'appium_capybara', '~> 1.2', '>= 1.2.1'
+gem 'appium_lib', '~> 8.0'
+gem 'site_prism', '~> 2.8'
+gem 'pry'
