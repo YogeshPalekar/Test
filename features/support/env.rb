@@ -2,7 +2,6 @@ require 'selenium-webdriver'
 require 'capybara/cucumber'
 require 'rspec/expectations'
 #require 'site_prism'
-require 'capybara/poltergeist'
 require 'appium_capybara'
 
 DEVICE_ID = ENV['ADB_DEVICE_ARG']
