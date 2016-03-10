@@ -15,6 +15,7 @@ end
 
 Capybara.register_driver :appium do |app|
   caps = appium_caps.fetch('MY_DEVICE')
+  puts caps
   desired_caps = caps
   url = "http://127.0.0.1:#{APPIUM_PORT}/wd/hub/" # Url to your running appium server
   appium_lib_options = { server_url: url }
