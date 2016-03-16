@@ -5,7 +5,7 @@ end
 When(/^I login into Amazon$/) do
   find(:css , '#nav-logobar-greeting').click
   find(:css , '#ap_email').set 'usertwo2020@gmail.com'
-  fill_in('Password' , :with => 'admin12!@')
+  fill_in('Amazon password' , :with => 'admin12!@')
   find(:css , '#signInSubmit').click
 end
 
